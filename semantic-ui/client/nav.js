@@ -8,6 +8,9 @@ Template.nav.helpers({
 Template.nav.events({
     'click #nav-signinout': function(event){
         console.log('click');
-        Meteor.user() ? Meteor.logout() : Router.go('atSignIn');
+        if (Meteor.user())
+            Meteor.logout();
+        else
+            Router.go('atSignIn');
     },
 });
