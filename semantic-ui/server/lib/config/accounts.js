@@ -1,3 +1,4 @@
+/*
 // Set up login services
 Meteor.startup(function() {
     // Remove configuration entries in case service is already configured
@@ -37,3 +38,4 @@ Meteor.startup(function() {
         "secret": "XXXXXXXXXXXXXXXX"
     });
 });
+*/
