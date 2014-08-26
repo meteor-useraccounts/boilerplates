@@ -9,3 +9,7 @@ accounts-templates-semantic-ui
 accounts-password
 iron-router-active
 less
+accounts-google
+accounts-ui
+autopublish
+insecure
