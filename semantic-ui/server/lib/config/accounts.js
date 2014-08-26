@@ -31,7 +31,7 @@ Meteor.startup(function() {
         "secret": "XXXXXXXXXXXXXXXXXXXXXXXX"
     });
 
-    // Add Facebook configuration entry
+    // Add Linkedin configuration entry
     ServiceConfiguration.configurations.insert({
         "service": "linkedin",
         "clientId": "XXXXXXXXXXXXXX",
