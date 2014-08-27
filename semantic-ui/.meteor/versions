@@ -2,8 +2,6 @@ accounts-base@1.0.0
 accounts-google@1.0.0
 accounts-oauth@1.0.0
 accounts-password@1.0.0
-accounts-ui-unstyled@1.0.0
-accounts-ui@1.0.0
 application-configuration@1.0.0
 autopublish@1.0.0
 autoupdate@1.0.4
@@ -66,3 +64,4 @@ templating@1.0.4
 ui@1.0.0
 underscore@1.0.0
 webapp@1.0.2
+zimme:iron-router-active@0.2.1
