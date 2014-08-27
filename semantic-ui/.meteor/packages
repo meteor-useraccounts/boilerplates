@@ -4,12 +4,12 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-semantic-ui
-accounts-templates-semantic-ui
 accounts-password
-iron-router-active
 less
 accounts-google
 accounts-ui
 autopublish
 insecure
+splendido:accounts-templates-semantic-ui
+nooitaf:semantic-ui
+

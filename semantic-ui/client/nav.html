@@ -1,14 +1,16 @@
 <template name="nav">
   <div class="ui fixed transparent inverted main menu">
     <div class="header item">AccountsTemplates</div>
-    <a class="{{isActiveRoute 'home'}} item" href="{{pathFor 'home'}}">Home</a>
-    <a class="{{isActiveRoute 'private'}} item" href="{{pathFor 'private'}}">Private</a>
+    <!-- <a class="{{isActiveRoute 'home'}} item" href="{{pathFor 'home'}}">Home</a> -->
+    <!-- <a class="{{isActiveRoute 'private'}} item" href="{{pathFor 'private'}}">Private</a> -->
+    <a class="item" href="{{pathFor 'home'}}">Home</a>
+    <a class="item" href="{{pathFor 'private'}}">Private</a>
     <div class="right menu">
-      {{#if isNotActiveRoute 'signIn'}}
+      <!-- {{#if isNotActiveRoute 'signIn'}} -->
         <div class="item">
           <div class="ui button" id="nav-signinout">{{signInOut}}</div>
         </div>
-      {{/if}}
+      <!-- {{/if}} -->
     </div>
   </div>
 </template>
