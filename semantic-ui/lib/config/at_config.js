@@ -1,16 +1,18 @@
 //Routes
-//AccountsTemplates.configureRoute('changePwd');
-//AccountsTemplates.configureRoute('enrollAccount');
+AccountsTemplates.configureRoute('changePwd');
+AccountsTemplates.configureRoute('enrollAccount');
 AccountsTemplates.configureRoute('forgotPwd');
 AccountsTemplates.configureRoute('resetPwd');
 AccountsTemplates.configureRoute('signIn');
 AccountsTemplates.configureRoute('signUp');
+AccountsTemplates.configureRoute('verifyEmail');
 
 // Options
 AccountsTemplates.configure({
     showForgotPasswordLink: true,
     overrideLoginErrors: true,
     enablePasswordChange: true,
+    sendVerificationEmail: true,
 /*
     confirmPassword: true,
     continuousValidation: false,
@@ -18,7 +20,6 @@ AccountsTemplates.configure({
     forbidClientAccountCreation: false,
     formValidationFeedback: true,
     homeRoutePath: '/',
-    sendVerificationEmail: false,
     showAddRemoveServices: false,
     showPlaceholders: true,
 */
