@@ -9,6 +9,7 @@ less
 accounts-google
 autopublish
 insecure
-splendido:accounts-templates-semantic-ui
 nooitaf:semantic-ui
 zimme:iron-router-active
+splendido:accounts-templates-semantic-ui
+
