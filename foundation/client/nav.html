@@ -1,0 +1,28 @@
+<template name="nav">
+  <div class="fixed">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1>AccountsTemplates</h1>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+            {{#if isNotActiveRoute 'signIn'}}
+              <li class="has-form">
+                <a href="#" id="nav-signinout" class="button">{{signInOut}}</a>
+              </li>
+            {{/if}}
+        </ul>
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li class="{{isActiveRoute 'home'}}"><a href="{{pathFor 'home'}}">Home</a></li>
+          <li class="{{isActiveRoute 'private'}}"><a href="{{pathFor 'private'}}">Private</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+</template>
