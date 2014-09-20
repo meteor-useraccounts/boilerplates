@@ -10,7 +10,7 @@ mizzao:bootstrap-3
 zimme:iron-router-active
 accounts-google
 service-configuration
-splendido:accounts-templates-bootstrap
 accounts-password
 less
+splendido:accounts-templates-bootstrap
 
