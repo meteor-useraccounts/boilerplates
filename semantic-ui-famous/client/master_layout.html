@@ -1,0 +1,15 @@
+<template name="masterLayout">
+  {{#HeaderFooterLayout size="[undefined,undefined]" headerSize="50" footerSize="80"}}
+    {{#Surface target="header" size="[undefined,undefined]" translate="[0,0,100]"}}
+        <div id="nav">{{>yield region="nav"}}</div>
+    {{/Surface}}
+ 
+    {{#RenderController target="content" size="[undefined,undefined]"}}
+        {{>yield}}
+    {{/RenderController}}
+ 
+    {{#Surface target="footer" size="[undefined,true]" translate="[0,0,100]"}}
+        <div id="footer">{{>yield region="footer"}}</div>
+    {{/Surface}}
+  {{/HeaderFooterLayout}}
+</template>
