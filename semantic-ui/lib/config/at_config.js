@@ -23,6 +23,10 @@ AccountsTemplates.configure({
     showAddRemoveServices: false,
     showPlaceholders: true,
 */
+    negativeValidation: true,
+    positiveValidation:true,
+    negativeFeedback: false,
+    positiveFeedback:true,
 });
 
 // Initialization
