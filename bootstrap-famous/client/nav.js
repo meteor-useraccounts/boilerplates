@@ -7,7 +7,6 @@ Template.nav.helpers({
 
 Template.nav.events({
     'click #nav-signinout': function(event){
-        console.log('click');
         if (Meteor.user())
             Meteor.logout();
         else
