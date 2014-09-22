@@ -1,4 +1,5 @@
 accounts-base@1.1.0
+accounts-facebook@1.0.0
 accounts-google@1.0.0
 accounts-oauth@1.1.0
 accounts-password@1.0.1
@@ -20,6 +21,7 @@ ddp@1.0.8
 deps@1.0.3
 ejson@1.0.2
 email@1.0.2
+facebook@1.1.0
 fastclick@1.0.0
 follower-livedata@1.0.1
 gadicohen:famous-views@0.1.7
@@ -77,4 +79,6 @@ underscore@1.0.0
 url@1.0.0
 webapp-hashing@1.0.0
 webapp@1.1.1
+yefim:accounts-linkedin@0.0.6
+yefim:linkedin@0.0.2
 zimme:iron-router-active@0.2.2

@@ -8,10 +8,10 @@ autopublish
 insecure
 nooitaf:semantic-ui
 zimme:iron-router-active
-splendido:accounts-templates-core
-splendido:accounts-templates-semantic-ui
 service-configuration
 accounts-password
 accounts-google
 less
+splendido:accounts-templates-core
+splendido:accounts-templates-semantic-ui
 
