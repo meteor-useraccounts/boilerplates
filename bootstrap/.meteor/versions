@@ -59,11 +59,11 @@ routepolicy@1.0.1
 service-configuration@1.0.1
 session@1.0.1
 sha@1.0.0
-softwarerero:accounts-t9n@0.0.20
+softwarerero:accounts-t9n@1.0.0
 spacebars-compiler@1.0.2
 spacebars@1.0.1
-splendido:accounts-templates-bootstrap@0.9.3
-splendido:accounts-templates-core@0.9.3
+splendido:accounts-templates-bootstrap@0.9.5
+splendido:accounts-templates-core@0.9.5
 srp@1.0.0
 templating@1.0.6
 tracker@1.0.2
