@@ -1,6 +1,5 @@
 Router.configure({
     layoutTemplate: 'masterLayout',
-    loadingTemplate: 'loading',
     notFoundTemplate: 'pageNotFound',
     yieldTemplates: {
         nav: {to: 'nav'},

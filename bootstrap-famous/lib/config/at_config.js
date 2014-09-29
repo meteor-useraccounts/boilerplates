@@ -9,23 +9,25 @@ AccountsTemplates.configureRoute('verifyEmail');
 
 // Options
 AccountsTemplates.configure({
-    enablePasswordChange: true,
     showForgotPasswordLink: true,
-/*
     overrideLoginErrors: true,
+    enablePasswordChange: true,
     sendVerificationEmail: true,
+/*
     confirmPassword: true,
     continuousValidation: false,
-    showLabels: true,
+    displayFormLabels: true,
     forbidClientAccountCreation: false,
     formValidationFeedback: true,
     homeRoutePath: '/',
     showAddRemoveServices: false,
     showPlaceholders: true,
 */
+    negativeValidation: true,
+    positiveValidation:true,
+    negativeFeedback: false,
+    positiveFeedback:true,
 });
 
 // Initialization
-Meteor.startup(function(){
-    AccountsTemplates.init();
-});
+AccountsTemplates.init();

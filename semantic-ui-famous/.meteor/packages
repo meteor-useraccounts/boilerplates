@@ -10,13 +10,10 @@ nooitaf:semantic-ui
 zimme:iron-router-active
 accounts-password
 accounts-google
-splendido:accounts-templates-core
-splendido:accounts-templates-semantic-ui
 gadicohen:famous-views
-service-configuration
-reactive-dict
 accounts-facebook
 yefim:accounts-linkedin
 mjnetworks:famous
+service-configuration
+splendido:accounts-templates-semantic-ui
 splendido:accounts-templates-famous-wrapper
-

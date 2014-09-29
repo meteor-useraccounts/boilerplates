@@ -3,25 +3,17 @@
 
     <!-- Header Surface -->
     {{#Surface target="header" size="[undefined,undefined]" translate="[0,0,100]"}}
-
         {{>yield region="nav"}}
-
     {{/Surface}}
 
     <!-- Yield RenderController for your content -->
-
     {{#RenderController target="content" size="[undefined,undefined]"}}
-
         {{>yield}}
-
     {{/RenderController}}
 
     <!-- Footer Surface -->
-
-    {{#Surface target="footer" size="[undefined,true]" translate="[0,0,100]"}}
-
+    {{#Surface target="footer" size="[undefined,undefined]" translate="[0,0,100]"}}
        {{>yield region="footer"}}
-
     {{/Surface}}
 
   {{/HeaderFooterLayout}}
