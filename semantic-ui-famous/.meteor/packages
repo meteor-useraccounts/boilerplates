@@ -12,11 +12,11 @@ accounts-password
 accounts-google
 splendido:accounts-templates-core
 splendido:accounts-templates-semantic-ui
-splendido:accounts-templates-famous
 gadicohen:famous-views
 service-configuration
 reactive-dict
 accounts-facebook
 yefim:accounts-linkedin
 mjnetworks:famous
+splendido:accounts-templates-famous-wrapper
 

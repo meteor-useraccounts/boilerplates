@@ -24,7 +24,7 @@ email@1.0.3
 facebook@1.1.0
 fastclick@1.0.0
 follower-livedata@1.0.1
-gadicohen:famous-views@0.1.8
+gadicohen:famous-views@0.1.9
 geojson-utils@1.0.0
 google@1.1.0
 html-tools@1.0.1
@@ -68,9 +68,9 @@ sha@1.0.0
 softwarerero:accounts-t9n@1.0.0
 spacebars-compiler@1.0.2
 spacebars@1.0.2
-splendido:accounts-templates-core@0.9.6
-splendido:accounts-templates-famous@0.9.5
-splendido:accounts-templates-semantic-ui@0.9.6
+splendido:accounts-templates-core@0.9.7
+splendido:accounts-templates-famous-wrapper@0.0.1
+splendido:accounts-templates-semantic-ui@0.9.7
 srp@1.0.0
 templating@1.0.7
 tracker@1.0.2
