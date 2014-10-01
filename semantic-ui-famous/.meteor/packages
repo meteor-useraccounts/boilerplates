@@ -8,7 +8,6 @@ autopublish
 insecure
 nooitaf:semantic-ui
 zimme:iron-router-active
-accounts-password
 accounts-google
 gadicohen:famous-views
 accounts-facebook
@@ -17,3 +16,5 @@ mjnetworks:famous
 service-configuration
 splendido:accounts-templates-semantic-ui
 splendido:accounts-templates-famous-wrapper
+accounts-password
+
