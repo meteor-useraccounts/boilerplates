@@ -9,12 +9,12 @@ insecure
 nooitaf:semantic-ui
 zimme:iron-router-active
 accounts-google
-gadicohen:famous-views
 accounts-facebook
 yefim:accounts-linkedin
-mjnetworks:famous
 service-configuration
 splendido:accounts-templates-semantic-ui
 splendido:accounts-templates-famous-wrapper
 accounts-password
+mjnetworks:famous
+gadicohen:famous-views@0.1.11-rc.3
 
