@@ -29,5 +29,32 @@ AccountsTemplates.configure({
     positiveFeedback:true,
 });
 
+
+var Transform;
+var Transitionable;
+var Easing;
+if (Meteor.isClient){
+    FView.ready(function(require) {
+        Transform = famous.core.Transform;
+        Transitionable = famous.transitions.Transitionable;
+        Easing = famous.transitions.Easing;
+    });
+}
+
+var slideLeftDestroy = function(fview){
+    fview.modifier.setTransform(
+        Transform.translate(-$(window).width(),0),
+        { duration : 250, curve: Easing.easeOutSine },
+        function() { fview.destroy();}
+    );
+};
+
+
+AccountsTemplates.configureAnimations({
+    destroy: {
+        atSignupLink: slideLeftDestroy,
+    }
+})
+
 // Initialization
 AccountsTemplates.init();

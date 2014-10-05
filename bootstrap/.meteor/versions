@@ -42,7 +42,7 @@ meteor-platform@1.1.1
 meteor@1.1.1
 minifiers@1.1.0
 minimongo@1.0.3
-mizzao:bootstrap-3@3.2.0
+mizzao:bootstrap-3@3.2.0_1
 mobile-status-bar@1.0.0
 mongo@1.0.6
 npm-bcrypt@0.7.7
@@ -62,8 +62,8 @@ sha@1.0.0
 softwarerero:accounts-t9n@1.0.0
 spacebars-compiler@1.0.2
 spacebars@1.0.2
-splendido:accounts-templates-bootstrap@0.9.7
-splendido:accounts-templates-core@0.9.7
+splendido:accounts-templates-bootstrap@0.9.9
+splendido:accounts-templates-core@0.9.9
 srp@1.0.0
 templating@1.0.7
 tracker@1.0.2
