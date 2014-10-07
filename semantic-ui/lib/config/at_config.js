@@ -9,6 +9,7 @@ AccountsTemplates.configureRoute('verifyEmail');
 
 // Options
 AccountsTemplates.configure({
+    //defaultLayout: 'emptyLayout',
     showForgotPasswordLink: true,
     overrideLoginErrors: true,
     enablePasswordChange: true,
@@ -30,4 +31,6 @@ AccountsTemplates.configure({
 });
 
 // Initialization
-AccountsTemplates.init();
+Meteor.startup(function(){
+    AccountsTemplates.init();
+});

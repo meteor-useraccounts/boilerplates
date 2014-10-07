@@ -57,4 +57,6 @@ AccountsTemplates.configureAnimations({
 })
 
 // Initialization
-AccountsTemplates.init();
+Meteor.startup(function(){
+    AccountsTemplates.init();
+});
