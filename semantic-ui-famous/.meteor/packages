@@ -15,6 +15,6 @@ service-configuration
 splendido:accounts-templates-semantic-ui
 splendido:accounts-templates-famous-wrapper
 accounts-password
-mjnetworks:famous@0.2.2-1
 gadicohen:famous-views
+mjn:famous
 

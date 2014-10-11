@@ -53,7 +53,7 @@ var slideLeftDestroy = function(fview){
 AccountsTemplates.configureAnimations({
     destroy: {
         atSignupLink: slideLeftDestroy,
-    }
+    },
 })
 
 // Initialization

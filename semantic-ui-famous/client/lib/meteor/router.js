@@ -14,6 +14,9 @@ Router.map(function() {
     });
 
     this.route('private', {
-        onBeforeAction: AccountsTemplates.ensureSignedIn
+        onBeforeAction: function(pause){
+            console.log('private on onBeforeAction!');
+            AccountsTemplates.ensureSignedIn.call(this, pause);
+        },
     });
 });
