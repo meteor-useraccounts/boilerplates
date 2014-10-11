@@ -35,7 +35,7 @@ insecure@1.0.0
 iron:core@0.3.4
 iron:dynamic-template@0.4.1
 iron:layout@0.4.1
-iron:router@0.9.3
+iron:router@0.9.4
 jag:pince@0.0.5
 jquery@1.0.0
 json@1.0.0
@@ -48,7 +48,7 @@ meteor@1.1.1
 minifiers@1.1.0
 minimongo@1.0.3
 mizzao:bootstrap-3@3.2.0_1
-mjnetworks:famous@0.2.2
+mjn:famous@0.3.0_5
 mobile-status-bar@1.0.0
 mongo@1.0.6
 npm-bcrypt@0.7.7
@@ -68,9 +68,9 @@ sha@1.0.0
 softwarerero:accounts-t9n@1.0.0
 spacebars-compiler@1.0.2
 spacebars@1.0.2
-splendido:accounts-templates-bootstrap@0.9.14
-splendido:accounts-templates-core@0.9.14
-splendido:accounts-templates-famous-wrapper@0.1.7
+splendido:accounts-templates-bootstrap@0.9.16
+splendido:accounts-templates-core@0.9.16
+splendido:accounts-templates-famous-wrapper@0.1.9
 srp@1.0.0
 templating@1.0.7
 tracker@1.0.2

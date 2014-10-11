@@ -31,7 +31,7 @@ insecure@1.0.0
 iron:core@0.3.4
 iron:dynamic-template@0.4.1
 iron:layout@0.4.1
-iron:router@0.9.3
+iron:router@0.9.4
 jquery@1.0.0
 json@1.0.0
 less@1.0.9
@@ -62,8 +62,8 @@ sha@1.0.0
 softwarerero:accounts-t9n@1.0.0
 spacebars-compiler@1.0.2
 spacebars@1.0.2
-splendido:accounts-templates-bootstrap@0.9.14
-splendido:accounts-templates-core@0.9.14
+splendido:accounts-templates-bootstrap@0.9.16
+splendido:accounts-templates-core@0.9.16
 srp@1.0.0
 templating@1.0.7
 tracker@1.0.2

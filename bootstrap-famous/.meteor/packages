@@ -13,7 +13,8 @@ accounts-google
 gadicohen:famous-views
 accounts-facebook
 yefim:accounts-linkedin
-mjnetworks:famous
 service-configuration
 splendido:accounts-templates-bootstrap
 splendido:accounts-templates-famous-wrapper
+mjn:famous
+
