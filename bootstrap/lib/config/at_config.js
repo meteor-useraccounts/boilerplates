@@ -9,21 +9,28 @@ AccountsTemplates.configureRoute('verifyEmail');
 
 // Options
 AccountsTemplates.configure({
-    enablePasswordChange: true,
+    //defaultLayout: 'emptyLayout',
     showForgotPasswordLink: true,
-/*
     overrideLoginErrors: true,
-    sendVerificationEmail: true,
-    confirmPassword: true,
-    continuousValidation: false,
-    showLabels: true,
-    forbidClientAccountCreation: false,
-    formValidationFeedback: true,
-    homeRoutePath: '/',
-    showAddRemoveServices: false,
-    showPlaceholders: true,
-*/
+    enablePasswordChange: true,
+    sendVerificationEmail: false,
+
+    //enforceEmailVerification: true,
+    //confirmPassword: true,
+    //continuousValidation: false,
+    //displayFormLabels: true,
+    //forbidClientAccountCreation: false,
+    //formValidationFeedback: true,
+    //homeRoutePath: '/',
+    //showAddRemoveServices: false,
+    //showPlaceholders: true,
+
+    negativeValidation: true,
+    positiveValidation:true,
+    negativeFeedback: false,
+    positiveFeedback:true,
 });
+
 
 // Initialization
 Meteor.startup(function(){

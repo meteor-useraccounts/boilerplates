@@ -4,13 +4,9 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 mizzao:bootstrap-3
 zimme:iron-router-active
-accounts-google
-service-configuration
 accounts-password
 less
 splendido:accounts-templates-bootstrap
-
+meteorhacks:kadira
