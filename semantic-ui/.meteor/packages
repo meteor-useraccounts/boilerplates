@@ -9,9 +9,9 @@ insecure
 nooitaf:semantic-ui
 zimme:iron-router-active
 accounts-password
-accounts-google
 less
-splendido:accounts-templates-semantic-ui
-service-configuration
 softwarerero:accounts-t9n
-iron:router@0.9.4
+useraccounts:semantic-ui
+accounts-google
+service-configuration
+

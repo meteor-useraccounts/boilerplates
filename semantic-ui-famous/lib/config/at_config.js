@@ -54,7 +54,7 @@ AccountsTemplates.configureAnimations({
     destroy: {
         atSignupLink: slideLeftDestroy,
     },
-})
+});
 
 // Initialization
 Meteor.startup(function(){

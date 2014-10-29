@@ -8,8 +8,9 @@ autopublish
 insecure
 nsmeta:zurb-foundation
 zimme:iron-router-active
-accounts-google
-service-configuration
 accounts-password
 less
-splendido:accounts-templates-foundation
+useraccounts:foundation
+accounts-google
+service-configuration
+

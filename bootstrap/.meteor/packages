@@ -8,5 +8,7 @@ mizzao:bootstrap-3
 zimme:iron-router-active
 accounts-password
 less
-splendido:accounts-templates-bootstrap
-meteorhacks:kadira
+useraccounts:bootstrap
+accounts-google
+service-configuration
+

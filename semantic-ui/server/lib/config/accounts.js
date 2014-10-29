@@ -1,4 +1,3 @@
-/*
 // Set up login services
 Meteor.startup(function() {
     // Remove configuration entries in case service is already configured
@@ -9,6 +8,7 @@ Meteor.startup(function() {
         {service: "linkedin"}
     ]});
 
+    /*
     // Add Facebook configuration entry
     ServiceConfiguration.configurations.insert({
         "service": "facebook",
@@ -22,6 +22,7 @@ Meteor.startup(function() {
         "clientId": "XXXXXXXXXXXXXXXXXXXX",
         "secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     });
+    */
 
     // Add Google configuration entry
     ServiceConfiguration.configurations.insert({
@@ -31,11 +32,12 @@ Meteor.startup(function() {
         "secret": "XXXXXXXXXXXXXXXXXXXXXXXX"
     });
 
+    /*
     // Add Linkedin configuration entry
     ServiceConfiguration.configurations.insert({
         "service": "linkedin",
         "clientId": "XXXXXXXXXXXXXX",
         "secret": "XXXXXXXXXXXXXXXX"
     });
+    */
 });
-*/

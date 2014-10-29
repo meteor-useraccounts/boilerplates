@@ -7,14 +7,14 @@ meteor-platform
 autopublish
 insecure
 nooitaf:semantic-ui
-accounts-google
 accounts-facebook
 yefim:accounts-linkedin
-service-configuration
 accounts-password
 gadicohen:famous-views
 mjn:famous
-splendido:accounts-templates-semantic-ui
-splendido:accounts-templates-famous-wrapper
 zimme:iron-router-active
+useraccounts:semantic-ui
+useraccounts:famous-wrapper
+accounts-google
+service-configuration
 

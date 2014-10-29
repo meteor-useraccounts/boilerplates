@@ -8,6 +8,7 @@ Meteor.startup(function() {
         {service: "linkedin"}
     ]});
 
+    /*
     // Add Facebook configuration entry
     ServiceConfiguration.configurations.insert({
         "service": "facebook",
@@ -15,7 +16,6 @@ Meteor.startup(function() {
         "secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     });
 
-    /*
     // Add GitHub configuration entry
     ServiceConfiguration.configurations.insert({
         "service": "github",
@@ -32,10 +32,12 @@ Meteor.startup(function() {
         "secret": "XXXXXXXXXXXXXXXXXXXXXXXX"
     });
 
+    /*
     // Add Linkedin configuration entry
     ServiceConfiguration.configurations.insert({
         "service": "linkedin",
         "clientId": "XXXXXXXXXXXXXX",
         "secret": "XXXXXXXXXXXXXXXX"
     });
+    */
 });

@@ -9,12 +9,12 @@ insecure
 mizzao:bootstrap-3
 zimme:iron-router-active
 accounts-password
-accounts-google
 gadicohen:famous-views
 accounts-facebook
 yefim:accounts-linkedin
-service-configuration
-splendido:accounts-templates-bootstrap
-splendido:accounts-templates-famous-wrapper
 mjn:famous
+useraccounts:bootstrap
+useraccounts:famous-wrapper
+accounts-google
+service-configuration
 

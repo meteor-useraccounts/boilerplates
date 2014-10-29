@@ -22,7 +22,7 @@ Meteor.startup(function() {
         "clientId": "XXXXXXXXXXXXXXXXXXXX",
         "secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     });
-*/
+    */
 
     // Add Google configuration entry
     ServiceConfiguration.configurations.insert({
