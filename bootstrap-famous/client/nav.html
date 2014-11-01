@@ -20,9 +20,7 @@
             <li class="{{isActiveRoute regex='private'}}"><a href="{{pathFor 'private'}}">Private</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            {{#if isNotActiveRoute regex='signIn'}}
-              <button type="button" id="nav-signinout" class="btn btn-default navbar-btn">{{signInOut}}</button>
-            {{/if}}
+            {{> atNavButton}}
           </ul>
         </div>
       </div>

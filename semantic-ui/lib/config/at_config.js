@@ -1,3 +1,8 @@
+AccountsTemplates.addField({
+    _id: 'reg_code',
+    type: 'hidden'
+});
+
 //Routes
 AccountsTemplates.configureRoute('changePwd');
 AccountsTemplates.configureRoute('enrollAccount');
@@ -13,7 +18,7 @@ AccountsTemplates.configure({
     showForgotPasswordLink: true,
     overrideLoginErrors: true,
     enablePasswordChange: true,
-    sendVerificationEmail: false,
+    sendVerificationEmail: true,
 
     //enforceEmailVerification: true,
     //confirmPassword: true,
