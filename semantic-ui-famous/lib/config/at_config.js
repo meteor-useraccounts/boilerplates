@@ -9,20 +9,22 @@ AccountsTemplates.configureRoute('verifyEmail');
 
 // Options
 AccountsTemplates.configure({
+    //defaultLayout: 'emptyLayout',
     showForgotPasswordLink: true,
     overrideLoginErrors: true,
     enablePasswordChange: true,
-    sendVerificationEmail: true,
-/*
-    confirmPassword: true,
-    continuousValidation: false,
-    displayFormLabels: true,
-    forbidClientAccountCreation: false,
-    formValidationFeedback: true,
-    homeRoutePath: '/',
-    showAddRemoveServices: false,
-    showPlaceholders: true,
-*/
+    sendVerificationEmail: false,
+
+    //enforceEmailVerification: true,
+    //confirmPassword: true,
+    //continuousValidation: false,
+    //displayFormLabels: true,
+    //forbidClientAccountCreation: false,
+    //formValidationFeedback: true,
+    //homeRoutePath: '/',
+    //showAddRemoveServices: false,
+    //showPlaceholders: true,
+
     negativeValidation: true,
     positiveValidation:true,
     negativeFeedback: false,
@@ -54,9 +56,4 @@ AccountsTemplates.configureAnimations({
     destroy: {
         atSignupLink: slideLeftDestroy,
     },
-});
-
-// Initialization
-Meteor.startup(function(){
-    AccountsTemplates.init();
 });

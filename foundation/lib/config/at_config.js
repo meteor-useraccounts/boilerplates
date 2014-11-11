@@ -30,9 +30,3 @@ AccountsTemplates.configure({
     negativeFeedback: false,
     positiveFeedback:true,
 });
-
-
-// Initialization
-Meteor.startup(function(){
-    AccountsTemplates.init();
-});

@@ -1,8 +1,3 @@
-AccountsTemplates.addField({
-    _id: 'reg_code',
-    type: 'hidden'
-});
-
 //Routes
 AccountsTemplates.configureRoute('changePwd');
 AccountsTemplates.configureRoute('enrollAccount');
@@ -18,7 +13,7 @@ AccountsTemplates.configure({
     showForgotPasswordLink: true,
     overrideLoginErrors: true,
     enablePasswordChange: true,
-    sendVerificationEmail: true,
+    sendVerificationEmail: false,
 
     //enforceEmailVerification: true,
     //confirmPassword: true,
@@ -34,10 +29,4 @@ AccountsTemplates.configure({
     positiveValidation:true,
     negativeFeedback: false,
     positiveFeedback:true,
-});
-
-
-// Initialization
-Meteor.startup(function(){
-    AccountsTemplates.init();
 });

@@ -30,9 +30,9 @@ iron:controller@1.0.0
 iron:core@1.0.0
 iron:dynamic-template@1.0.0
 iron:layout@1.0.0
-iron:location@1.0.0
+iron:location@1.0.1
 iron:middleware-stack@1.0.0
-iron:router@1.0.0
+iron:router@1.0.1
 iron:url@1.0.0
 jquery@1.0.1
 json@1.0.1
@@ -62,7 +62,7 @@ routepolicy@1.0.2
 service-configuration@1.0.2
 session@1.0.4
 sha@1.0.1
-softwarerero:accounts-t9n@1.0.0
+softwarerero:accounts-t9n@1.0.2
 spacebars-compiler@1.0.3
 spacebars@1.0.3
 srp@1.0.1
@@ -71,9 +71,9 @@ tracker@1.0.3
 ui@1.0.4
 underscore@1.0.1
 url@1.0.2
-useraccounts:bootstrap@1.1.1
-useraccounts:core@1.1.1
+useraccounts:bootstrap@1.2.1
+useraccounts:core@1.2.1
 webapp-hashing@1.0.1
 webapp@1.1.4
 wizonesolutions:underscore-string@1.0.0
-zimme:iron-router-active@1.0.0
+zimme:iron-router-active@1.0.1
