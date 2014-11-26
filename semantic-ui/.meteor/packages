@@ -6,7 +6,6 @@
 meteor-platform
 autopublish
 insecure
-nooitaf:semantic-ui
 zimme:iron-router-active
 accounts-password
 less
@@ -14,4 +13,5 @@ softwarerero:accounts-t9n
 useraccounts:semantic-ui
 accounts-google
 service-configuration
+nooitaf:semantic-ui@0.19.3
 
