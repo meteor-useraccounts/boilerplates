@@ -10,11 +10,11 @@ nooitaf:semantic-ui
 accounts-facebook
 yefim:accounts-linkedin
 accounts-password
-gadicohen:famous-views
 mjn:famous
 zimme:iron-router-active
 useraccounts:semantic-ui
 useraccounts:famous-wrapper
 accounts-google
 service-configuration
+gadicohen:famous-views
 

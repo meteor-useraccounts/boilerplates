@@ -25,24 +25,8 @@ AccountsTemplates.configure({
     //showAddRemoveServices: false,
     //showPlaceholders: true,
 
-    negativeValidation: true,
-    positiveValidation:true,
+    negativeValidation: false,
     negativeFeedback: false,
-    positiveFeedback:true,
-
-    texts: {
-      socialIcons: {
-        facebook: "icon ion-social-facebook",
-        twitter: "icon ion-social-twitter",
-        google: "icon ion-social-google",
-        github: "icon ion-social-github",
-        linkedin: "icon ion-social-linkedin",
-        instagram: "icon ion-social-instagram"
-      },
-      inputIcons: {
-        isValidating: "icon ion-load-d",
-        hasSuccess: "icon ion-checkmark",
-        hasError: "icon ion-close",
-      }
-    }
+    positiveValidation: false,
+    positiveFeedback: false,
 });
