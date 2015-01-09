@@ -1,0 +1,9 @@
+<template name="masterLayout">
+  {{> yield region='nav'}}
+  <div class="scroll-content ionic-scroll">
+    <div class="content overflow-scroll has-header has-tabs">
+      {{> yield}}
+    </div>
+  </div>
+  {{> yield region='footer'}}
+</template>
