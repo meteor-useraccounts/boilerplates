@@ -13,8 +13,8 @@ gadicohen:famous-views
 accounts-facebook
 yefim:accounts-linkedin
 mjn:famous
-useraccounts:bootstrap
 useraccounts:famous-wrapper
 accounts-google
 service-configuration
+useraccounts:unstyled
 
