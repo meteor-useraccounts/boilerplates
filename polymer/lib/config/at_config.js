@@ -17,12 +17,12 @@ AccountsTemplates.configure({
 
     //enforceEmailVerification: true,
     //confirmPassword: true,
-    //continuousValidation: false,
+    continuousValidation: true,
     //displayFormLabels: true,
     //forbidClientAccountCreation: false,
     //formValidationFeedback: true,
     //homeRoutePath: '/',
-    //showAddRemoveServices: false,
+    showAddRemoveServices: true,
     //showPlaceholders: true,
 
     negativeValidation: true,
