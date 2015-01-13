@@ -1,0 +1,25 @@
+<template name="nav">
+
+    <core-toolbar>
+      <div>AccountsTemplates</div>
+      <core-menu horizontal layout flex>
+
+        <a href="{{pathFor 'home'}}" layout horizontal center>
+          <paper-button  class="{{isActiveRoute regex='home'}}">
+            Home
+          </paper-button>
+        </a>
+
+        <a href="{{pathFor 'private'}}" layout horizontal center>
+          <paper-button  class="{{isActiveRoute regex='private'}}">
+            Private
+          </paper-button>
+        </a>    
+
+      </core-menu>
+
+      <core-icon icon="search"></core-icon>
+      <ul>{{> atNavButton}}</ul>
+
+    </core-toolbar>
+</template>
