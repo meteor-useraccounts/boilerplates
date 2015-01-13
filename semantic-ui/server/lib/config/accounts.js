@@ -1,43 +1,53 @@
 // Set up login services
 Meteor.startup(function() {
-    // Remove configuration entries in case service is already configured
-    ServiceConfiguration.configurations.remove({$or: [
-        {service: "facebook"},
-        {service: "github"},
-        {service: "google"},
-        {service: "linkedin"}
-    ]});
+  // Add Facebook configuration entry
+  /*
+  ServiceConfiguration.configurations.update(
+    { service: "facebook" },
+    { $set: {
+        appId: "XXXXXXXXXXXXXXX",
+        secret: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    { upsert: true }
+  );
+  */
 
-    /*
-    // Add Facebook configuration entry
-    ServiceConfiguration.configurations.insert({
-        "service": "facebook",
-        "appId": "XXXXXXXXXXXXXXX",
-        "secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-    });
+  // Add GitHub configuration entry
+  /*
+  ServiceConfiguration.configurations.update(
+    { service: "github" },
+    { $set: {
+        clientId: "XXXXXXXXXXXXXXXXXXXX",
+        secret: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    { upsert: true }
+  );
+  */
 
-    // Add GitHub configuration entry
-    ServiceConfiguration.configurations.insert({
-        "service": "github",
-        "clientId": "XXXXXXXXXXXXXXXXXXXX",
-        "secret": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-    });
-    */
+  // Add Google configuration entry
+  ServiceConfiguration.configurations.update(
+    { service: "google" },
+    { $set: {
+        clientId: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        client_email: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        secret: "XXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    { upsert: true }
+  );
 
-    // Add Google configuration entry
-    ServiceConfiguration.configurations.insert({
-        "service": "google",
-        "clientId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-        "client_email": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-        "secret": "XXXXXXXXXXXXXXXXXXXXXXXX"
-    });
-
-    /*
-    // Add Linkedin configuration entry
-    ServiceConfiguration.configurations.insert({
-        "service": "linkedin",
-        "clientId": "XXXXXXXXXXXXXX",
-        "secret": "XXXXXXXXXXXXXXXX"
-    });
-    */
+  // Add Linkedin configuration entry
+  /*
+  ServiceConfiguration.configurations.update(
+    { service: "linkedin" },
+    { $set: {
+        clientId: "XXXXXXXXXXXXXX",
+        secret: "XXXXXXXXXXXXXXXX"
+      }
+    },
+    { upsert: true }
+  );
+  */
 });
