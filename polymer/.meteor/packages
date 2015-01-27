@@ -9,7 +9,7 @@ accounts-password
 less
 accounts-google
 service-configuration
-useraccounts:polymer
 
 ecwyne:polymer
 ecwyne:polymer-elements
+useraccounts:polymer
