@@ -4,6 +4,7 @@ Router.configure({
     notFoundTemplate: 'pageNotFound',
     yieldTemplates: {
         nav: {to: 'nav'},
+        toolbar: {to: 'toolbar'},
         footer: {to: 'footer'},
     }
 });
