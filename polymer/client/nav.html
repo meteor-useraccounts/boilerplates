@@ -1,25 +1,13 @@
 <template name="nav">
 
+  <core-header-panel drawer>
     <core-toolbar>
-      <div>AccountsTemplates</div>
-      <core-menu horizontal layout flex>
-
-        <a href="{{pathFor 'home'}}" layout horizontal center>
-          <paper-button  class="{{isActiveRoute regex='home'}}">
-            Home
-          </paper-button>
-        </a>
-
-        <a href="{{pathFor 'private'}}" layout horizontal center>
-          <paper-button  class="{{isActiveRoute regex='private'}}">
-            Private
-          </paper-button>
-        </a>    
-
-      </core-menu>
-
-      <core-icon icon="search"></core-icon>
-      <ul>{{> atNavButton}}</ul>
-
+      <span>UserAccounts</span>
     </core-toolbar>
+    <core-menu class='menu'>
+      <a href="{{pathFor 'home'}}"><paper-item class="{{isActiveRoute regex='home'}}">Home</paper-item></a>
+      <a href="{{pathFor 'private'}}"><paper-item class="{{isActiveRoute regex='private'}}">Private</paper-item></a>
+    </core-menu>
+  </core-header-panel>
+  
 </template>
