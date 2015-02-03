@@ -1,0 +1,14 @@
+<template name="nav">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">AccountsTemplates</a>
+      <ul id="nav-mobile" class="right side-nav">
+        <li><a href="{{pathFor 'home'}}">Home</a></li>
+        <li><a href="{{pathFor 'private'}}">Private</a></li>
+        <li>{{> atNavButton }}</li>
+      </ul>
+
+      <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+    </div>
+  </nav>
+</template>
