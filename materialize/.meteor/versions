@@ -1,4 +1,6 @@
 accounts-base@1.1.3
+accounts-facebook@1.0.3
+accounts-github@1.0.3
 accounts-google@1.0.3
 accounts-oauth@1.1.3
 accounts-password@1.0.6
@@ -13,14 +15,16 @@ boilerplate-generator@1.0.2
 callback-hook@1.0.2
 check@1.0.4
 coffeescript@1.0.5
-d0minikk:materialize-meteor@1.95.1
 ddp@1.0.14
 deps@1.0.6
 ejson@1.0.5
 email@1.0.5
+facebook@1.1.3
 fastclick@1.0.2
 follower-livedata@1.0.3
+fortawesome:fontawesome@4.2.0_2
 geojson-utils@1.0.2
+github@1.1.2
 google@1.1.4
 html-tools@1.0.3
 htmljs@1.0.3
@@ -42,6 +46,7 @@ less@1.0.12
 livedata@1.0.12
 localstorage@1.0.2
 logging@1.0.6
+materialize:materialize@0.95.1
 meteor@1.1.4
 meteor-platform@1.2.1
 minifiers@1.1.3

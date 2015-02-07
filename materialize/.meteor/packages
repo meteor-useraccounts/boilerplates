@@ -13,5 +13,8 @@ softwarerero:accounts-t9n
 accounts-google
 service-configuration
 
-d0minikk:materialize-meteor
 useraccounts:materialize
+materialize:materialize
+accounts-facebook
+accounts-github
+fortawesome:fontawesome
