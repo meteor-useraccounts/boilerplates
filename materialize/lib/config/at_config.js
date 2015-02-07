@@ -28,5 +28,5 @@ AccountsTemplates.configure({
     negativeValidation: true,
     positiveValidation:true,
     negativeFeedback: false,
-    positiveFeedback:true,
+    positiveFeedback:false,
 });
