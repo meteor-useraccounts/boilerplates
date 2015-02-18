@@ -1,14 +1,8 @@
 <template name="masterLayout">
-<!--   {{> yield region='nav'}}
-  <div id="content">
-    {{> yield}}
-  </div>
-  {{> yield region='footer'}}
- -->
 
   <core-drawer-panel id="drawerPanel">
 		{{> yield region="nav"}}
-		<core-header-panel main>
+		<core-header-panel main waterfall>
 			{{> yield region="toolbar"}}
 			<div class="content">
 				{{> yield}}
