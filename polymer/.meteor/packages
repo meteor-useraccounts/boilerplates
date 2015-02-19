@@ -13,3 +13,4 @@ service-configuration
 ecwyne:polymer
 ecwyne:polymer-elements
 useraccounts:polymer
+meteorhacks:inject-initial
