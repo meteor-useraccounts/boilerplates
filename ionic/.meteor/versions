@@ -2,6 +2,8 @@ accounts-base@1.1.3
 accounts-google@1.0.3
 accounts-oauth@1.1.3
 accounts-password@1.0.6
+angularjs:angular@1.0.8
+angularui:angular-ui-router@0.2.13_3
 application-configuration@1.0.4
 autoupdate@1.1.5
 base64@1.0.2
@@ -45,7 +47,6 @@ minifiers@1.1.3
 minimongo@1.0.6
 mobile-status-bar@1.0.2
 mongo@1.0.11
-mquandalle:bower@0.1.11
 npm-bcrypt@0.7.7
 oauth@1.1.3
 oauth2@1.1.2
@@ -68,10 +69,10 @@ templating@1.0.11
 tracker@1.0.5
 ui@1.0.5
 underscore@1.0.2
-urigo:ionic@0.2.1
+urigo:ionic@0.4.0
 url@1.0.3
-useraccounts:core@1.6.1
-useraccounts:ionic@1.6.1
+useraccounts:core@1.8.0
+useraccounts:ionic@1.8.0
 webapp@1.1.6
 webapp-hashing@1.0.2
 wizonesolutions:underscore-string@1.0.0

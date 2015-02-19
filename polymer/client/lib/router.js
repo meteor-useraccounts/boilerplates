@@ -9,13 +9,14 @@ Router.configure({
     }
 });
 
-
 Router.map(function() {
     this.route('home', {
         path: '/',
     });
 
-    this.route('private', {
-        onBeforeAction: AccountsTemplates.ensureSignedIn
-    });
+    this.route('private');
+});
+
+Router.plugin('ensureSignedIn', {
+  only: ['private']
 });

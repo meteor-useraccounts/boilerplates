@@ -6,7 +6,6 @@
 meteor-platform
 autopublish
 insecure
-mizzao:bootstrap-3
 zimme:iron-router-active
 accounts-password
 gadicohen:famous-views
@@ -16,5 +15,6 @@ mjn:famous
 useraccounts:famous-wrapper
 accounts-google
 service-configuration
-useraccounts:unstyled
 
+twbs:bootstrap
+useraccounts:bootstrap
