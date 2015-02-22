@@ -28,7 +28,11 @@ AccountsTemplates.configure({
     negativeValidation: true,
     positiveValidation:true,
     negativeFeedback: false,
-    positiveFeedback:true,
+    positiveFeedback:false,
+
+    // Privacy Policy and Terms of Use
+    //privacyUrl: 'privacy',
+    //termsUrl: 'terms-of-use',
 });
 
 

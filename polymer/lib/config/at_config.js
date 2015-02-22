@@ -17,16 +17,20 @@ AccountsTemplates.configure({
 
     //enforceEmailVerification: true,
     //confirmPassword: true,
-    continuousValidation: true,
+    //continuousValidation: false,
     //displayFormLabels: true,
     //forbidClientAccountCreation: false,
     //formValidationFeedback: true,
     //homeRoutePath: '/',
-    showAddRemoveServices: true,
+    //showAddRemoveServices: false,
     //showPlaceholders: true,
 
     negativeValidation: true,
     positiveValidation:true,
     negativeFeedback: false,
     positiveFeedback:true,
+
+    // Privacy Policy and Terms of Use
+    //privacyUrl: 'privacy',
+    //termsUrl: 'terms-of-use',
 });

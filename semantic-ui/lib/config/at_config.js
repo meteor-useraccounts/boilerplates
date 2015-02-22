@@ -29,4 +29,8 @@ AccountsTemplates.configure({
     positiveValidation:true,
     negativeFeedback: false,
     positiveFeedback:true,
+
+    // Privacy Policy and Terms of Use
+    //privacyUrl: 'privacy',
+    //termsUrl: 'terms-of-use',
 });
