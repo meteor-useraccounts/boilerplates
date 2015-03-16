@@ -6,7 +6,6 @@
 meteor-platform
 autopublish
 insecure
-nooitaf:semantic-ui
 accounts-facebook
 yefim:accounts-linkedin
 accounts-password
@@ -18,3 +17,4 @@ accounts-google
 service-configuration
 gadicohen:famous-views
 
+semantic:ui-css

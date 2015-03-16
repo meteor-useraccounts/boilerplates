@@ -14,8 +14,8 @@ check@1.0.4
 coffeescript@1.0.5
 ddp@1.0.14
 deps@1.0.6
-ecwyne:polymer@1.0.3
-ecwyne:polymer-elements@1.0.4
+ecwyne:polymer@1.0.6
+ecwyne:polymer-elements@1.0.8
 ejson@1.0.5
 email@1.0.5
 fastclick@1.0.2
