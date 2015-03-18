@@ -10,7 +10,7 @@ less
 accounts-google
 service-configuration
 
-ecwyne:polymer
-ecwyne:polymer-elements
 useraccounts:polymer
 meteorhacks:inject-initial
+ecwyne:polymer-elements
+ecwyne:polymer
