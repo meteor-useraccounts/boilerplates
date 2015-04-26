@@ -15,6 +15,5 @@ service-configuration
 
 useraccounts:materialize
 materialize:materialize
-accounts-facebook
 accounts-github
 fortawesome:fontawesome

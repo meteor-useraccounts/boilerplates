@@ -8,10 +8,10 @@ autopublish
 insecure
 zimme:iron-router-active
 accounts-password
-less
 softwarerero:accounts-t9n
-useraccounts:semantic-ui
 accounts-google
 service-configuration
 
 semantic:ui-css
+useraccounts:semantic-ui
+less
