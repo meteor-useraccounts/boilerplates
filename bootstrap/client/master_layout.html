@@ -1,7 +1,7 @@
 <template name="masterLayout">
-  {{> yield region='nav'}}
+  {{> Template.dynamic template=nav}}
   <div id="content">
-    {{> yield}}
+    {{> Template.dynamic template=main}}
   </div>
-  {{> yield region='footer'}}
+  {{> Template.dynamic template=footer}}
 </template>
