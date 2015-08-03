@@ -1,4 +1,5 @@
 //Routes
+/*
 AccountsTemplates.configureRoute('changePwd');
 AccountsTemplates.configureRoute('enrollAccount');
 AccountsTemplates.configureRoute('forgotPwd');
@@ -6,8 +7,10 @@ AccountsTemplates.configureRoute('resetPwd');
 AccountsTemplates.configureRoute('signIn');
 AccountsTemplates.configureRoute('signUp');
 AccountsTemplates.configureRoute('verifyEmail');
+*/
 
 // Options
+/*
 AccountsTemplates.configure({
     //defaultLayout: 'emptyLayout',
     showForgotPasswordLink: true,
@@ -34,3 +37,4 @@ AccountsTemplates.configure({
     //privacyUrl: 'privacy',
     //termsUrl: 'terms-of-use',
 });
+*/

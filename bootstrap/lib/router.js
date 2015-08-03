@@ -1,3 +1,4 @@
+/*
 Router.configure({
     layoutTemplate: 'masterLayout',
     loadingTemplate: 'loading',
@@ -19,3 +20,4 @@ Router.map(function() {
 Router.plugin('ensureSignedIn', {
   only: ['private']
 });
+*/
