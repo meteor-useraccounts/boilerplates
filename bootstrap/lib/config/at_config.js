@@ -1,11 +1,3 @@
-//Routes
-AccountsTemplates.configureRoute('changePwd');
-AccountsTemplates.configureRoute('enrollAccount');
-AccountsTemplates.configureRoute('forgotPwd');
-AccountsTemplates.configureRoute('resetPwd');
-AccountsTemplates.configureRoute('signIn');
-AccountsTemplates.configureRoute('signUp');
-AccountsTemplates.configureRoute('verifyEmail');
 
 // Options
 AccountsTemplates.configure({
@@ -34,3 +26,13 @@ AccountsTemplates.configure({
     //privacyUrl: 'privacy',
     //termsUrl: 'terms-of-use',
 });
+
+
+//Routes
+AccountsTemplates.configureRoute('changePwd');
+AccountsTemplates.configureRoute('enrollAccount');
+AccountsTemplates.configureRoute('forgotPwd');
+AccountsTemplates.configureRoute('resetPwd');
+AccountsTemplates.configureRoute('signIn');
+AccountsTemplates.configureRoute('signUp');
+AccountsTemplates.configureRoute('verifyEmail');
