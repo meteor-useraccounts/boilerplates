@@ -6,7 +6,6 @@
 meteor-platform
 autopublish
 insecure
-zimme:iron-router-active
 accounts-password
 less
 softwarerero:accounts-t9n
@@ -17,3 +16,5 @@ useraccounts:materialize
 materialize:materialize
 accounts-github
 fortawesome:fontawesome
+zimme:active-route
+useraccounts:iron-routing

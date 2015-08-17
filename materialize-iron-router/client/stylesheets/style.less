@@ -17,9 +17,13 @@ body {
   min-width: 320px;
 }
 
-#content {
-  padding-top: 70px;
+// left margin for main content when side nav is open
+@media only screen and (min-width: 993px) {
+  #content {
+    margin-left: 240px;
+  }
 }
+
 
 footer {
   position: absolute;

@@ -1,8 +1,12 @@
 
 // Options
+console.log('Setting AccountsTemplates options');
 AccountsTemplates.configure({
   defaultLayout: 'masterLayout',
-  defaultLayoutRegions: {},
+  defaultLayoutRegions: {
+    nav: 'nav',
+    footer: 'footer',
+  },
   defaultContentRegion: 'main',
   showForgotPasswordLink: true,
   overrideLoginErrors: true,
@@ -28,12 +32,3 @@ AccountsTemplates.configure({
   //privacyUrl: 'privacy',
   //termsUrl: 'terms-of-use',
 });
-
-
-//Routes
-AccountsTemplates.configureRoute('changePwd');
-AccountsTemplates.configureRoute('forgotPwd');
-AccountsTemplates.configureRoute('resetPwd');
-AccountsTemplates.configureRoute('signIn');
-AccountsTemplates.configureRoute('signUp');
-AccountsTemplates.configureRoute('verifyEmail');
