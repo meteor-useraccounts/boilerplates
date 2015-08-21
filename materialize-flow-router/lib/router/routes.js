@@ -34,7 +34,6 @@ FlowRouter.notFound = {
 
 
 //Routes
-console.log('Configuring AccountsTemplates routes');
 AccountsTemplates.configureRoute('changePwd');
 AccountsTemplates.configureRoute('forgotPwd');
 AccountsTemplates.configureRoute('resetPwd');

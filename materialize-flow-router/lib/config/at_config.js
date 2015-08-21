@@ -1,6 +1,5 @@
 
 // Options
-console.log('Setting AccountsTemplates options');
 AccountsTemplates.configure({
   defaultLayout: 'masterLayout',
   defaultLayoutRegions: {
