@@ -72,9 +72,9 @@ tracker@1.0.7
 ui@1.0.6
 underscore@1.0.3
 url@1.0.4
-useraccounts:core@1.12.0
-useraccounts:iron-routing@1.12.0
-useraccounts:materialize@1.12.0
+useraccounts:core@1.12.3
+useraccounts:iron-routing@1.12.3
+useraccounts:materialize@1.12.3
 webapp@1.2.0
 webapp-hashing@1.0.3
-zimme:active-route@2.3.0
+zimme:active-route@2.3.1
