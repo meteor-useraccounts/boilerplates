@@ -4,11 +4,11 @@
 # but you can also edit it by hand.
 
 meteor-platform
-zimme:iron-router-active
 accounts-password
-less
 useraccounts:bootstrap
 accounts-google
 service-configuration
 twbs:bootstrap
 
+zimme:active-route
+useraccounts:iron-routing
