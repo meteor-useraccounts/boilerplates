@@ -4,13 +4,11 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
-nsmeta:zurb-foundation
-zimme:iron-router-active
 accounts-password
-less
 useraccounts:foundation
 accounts-google
 service-configuration
 
+zimme:active-route
+ewall:foundation
+useraccounts:iron-routing

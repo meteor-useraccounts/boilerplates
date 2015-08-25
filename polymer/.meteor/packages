@@ -4,13 +4,13 @@
 # but you can also edit it by hand.
 
 meteor-platform
-zimme:iron-router-active
-accounts-password
-less
 accounts-google
 service-configuration
 
-useraccounts:polymer
 meteorhacks:inject-initial
 ecwyne:polymer-elements
 ecwyne:polymer
+zimme:active-route
+useraccounts:polymer
+useraccounts:iron-routing
+accounts-password

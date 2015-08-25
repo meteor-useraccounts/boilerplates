@@ -1,0 +1,18 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+zimme:active-route
+accounts-password
+accounts-google
+accounts-github
+service-configuration
+
+useraccounts:materialize
+materialize:materialize
+fortawesome:fontawesome
+
+useraccounts:flow-routing
+arillo:flow-router-helpers

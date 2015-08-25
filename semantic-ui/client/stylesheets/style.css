@@ -1,0 +1,31 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif /*rtl:prepend:"Droid Arabic Kufi","Droid Sans", */;
+  background: #fcfcfc url(/imgs/bg.jpg) repeat;
+  margin: 0px;
+  /* Margin bottom by footer height */
+  margin-bottom: 70px;
+  padding: 0px;
+  color: #555555;
+  min-width: 320px;
+}
+
+#content {
+  padding-top: 70px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 70px;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}

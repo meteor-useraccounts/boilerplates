@@ -4,14 +4,11 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
-zimme:iron-router-active
 accounts-password
-less
-softwarerero:accounts-t9n
-useraccounts:semantic-ui
 accounts-google
 service-configuration
 
+useraccounts:semantic-ui
+useraccounts:iron-routing
+zimme:active-route
 semantic:ui-css
