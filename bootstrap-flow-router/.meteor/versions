@@ -6,8 +6,8 @@ arillo:flow-router-helpers@0.4.4_1
 autoupdate@1.2.1
 base64@1.0.3
 binary-heap@1.0.3
-blaze-tools@1.0.3
 blaze@2.1.2
+blaze-tools@1.0.3
 boilerplate-generator@1.0.3
 callback-hook@1.0.3
 check@1.0.5
@@ -30,12 +30,11 @@ json@1.0.3
 kadira:blaze-layout@2.0.0
 kadira:flow-router@2.1.1
 launch-screen@1.0.2
-less@1.0.14
 livedata@1.0.13
 localstorage@1.0.3
 logging@1.0.7
-meteor-platform@1.2.2
 meteor@1.1.6
+meteor-platform@1.2.2
 minifiers@1.1.5
 minimongo@1.0.8
 mobile-status-bar@1.0.3
@@ -55,9 +54,8 @@ routepolicy@1.0.5
 service-configuration@1.0.4
 session@1.1.0
 sha@1.0.3
-softwarerero:accounts-t9n@1.0.9
-spacebars-compiler@1.0.6
 spacebars@1.0.6
+spacebars-compiler@1.0.6
 srp@1.0.3
 templating@1.1.1
 tracker@1.0.7
@@ -69,6 +67,6 @@ useraccounts:base@2.0.0
 useraccounts:bootstrap@2.0.0
 useraccounts:core@2.0.0
 useraccounts:flow-routing@2.0.0
-webapp-hashing@1.0.3
 webapp@1.2.0
+webapp-hashing@1.0.3
 zimme:active-route@2.3.1

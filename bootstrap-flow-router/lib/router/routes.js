@@ -12,7 +12,7 @@ FlowRouter.route('/', {
 
 FlowRouter.route('/private', {
   name: "private",
-  triggersEnter: [AccountsTemplates.ensureSignedIn],
+  // triggersEnter: [UserAccounts.ensureSignedIn],
   action: function(params, queryParams) {
     BlazeLayout.render('masterLayout', {
       footer: "footer",
@@ -34,9 +34,9 @@ FlowRouter.notFound = {
 
 
 //Routes
-AccountsTemplates.configureRoute('changePwd');
-AccountsTemplates.configureRoute('forgotPwd');
-AccountsTemplates.configureRoute('resetPwd');
-AccountsTemplates.configureRoute('signIn');
-AccountsTemplates.configureRoute('signUp');
-AccountsTemplates.configureRoute('verifyEmail');
+UserAccounts.configureRoute('changePwd');
+UserAccounts.configureRoute('forgotPwd');
+UserAccounts.configureRoute('resetPwd');
+UserAccounts.configureRoute('signIn');
+UserAccounts.configureRoute('signUp');
+UserAccounts.configureRoute('verifyEmail');

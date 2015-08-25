@@ -1,6 +1,7 @@
 
 // Options
-AccountsTemplates.configure({
+/*
+UserAccounts.configure({
   defaultLayout: 'masterLayout',
   defaultLayoutRegions: {
     nav: 'nav',
@@ -31,3 +32,4 @@ AccountsTemplates.configure({
   //privacyUrl: 'privacy',
   //termsUrl: 'terms-of-use',
 });
+*/
