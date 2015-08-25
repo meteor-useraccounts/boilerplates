@@ -1,0 +1,29 @@
+<template name="nav">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class=container>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="navbar-brand">
+            AccountsTemplates
+          </span>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
+          <ul class="nav navbar-nav">
+            <li class="{{isActiveRoute regex='home'}}"><a href="{{pathFor 'home'}}">Home</a></li>
+            <li class="{{isActiveRoute regex='private'}}"><a href="{{pathFor 'private'}}">Private</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            {{> atNavButton}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</template>
