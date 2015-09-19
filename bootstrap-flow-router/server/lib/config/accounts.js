@@ -14,7 +14,6 @@ Meteor.startup(function() {
   */
 
   // Add GitHub configuration entry
-  /*
   ServiceConfiguration.configurations.update(
     { service: "github" },
     { $set: {
@@ -24,7 +23,6 @@ Meteor.startup(function() {
     },
     { upsert: true }
   );
-  */
 
   // Add Google configuration entry
   ServiceConfiguration.configurations.update(

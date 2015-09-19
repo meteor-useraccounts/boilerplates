@@ -32,11 +32,19 @@ FlowRouter.notFound = {
   }
 };
 
+UserAccounts.flowrouting.configure({
+  defaultLayout: 'masterLayout',
+  defaultLayoutRegions: {
+    nav: 'nav',
+    footer: 'footer',
+  },
+  defaultContentRegion: 'main',
+});
 
 //Routes
-UserAccounts.configureRoute('changePwd');
-UserAccounts.configureRoute('forgotPwd');
-UserAccounts.configureRoute('resetPwd');
-UserAccounts.configureRoute('signIn');
-UserAccounts.configureRoute('signUp');
-UserAccounts.configureRoute('verifyEmail');
+UserAccounts.flowrouting.configureRoute('changePwd');
+UserAccounts.flowrouting.configureRoute('forgotPwd');
+UserAccounts.flowrouting.configureRoute('resetPwd');
+UserAccounts.flowrouting.configureRoute('signIn');
+UserAccounts.flowrouting.configureRoute('signUp');
+UserAccounts.flowrouting.configureRoute('verifyEmail');
