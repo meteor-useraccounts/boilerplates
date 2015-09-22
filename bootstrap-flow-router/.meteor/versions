@@ -13,7 +13,7 @@ boilerplate-generator@1.0.3
 callback-hook@1.0.3
 check@1.0.5
 coffeescript@1.0.6
-cosmos:browserify@0.5.0
+cosmos:browserify@0.5.1
 ddp@1.1.0
 deps@1.0.7
 ejson@1.0.6
@@ -65,14 +65,10 @@ twbs:bootstrap@3.3.5
 ui@1.0.6
 underscore@1.0.3
 url@1.0.4
-useraccounts:base@2.0.0
 useraccounts:bootstrap@2.0.0
 useraccounts:core@2.0.0
 useraccounts:flow-routing@2.0.0
-useraccounts:links@2.0.0
 useraccounts:oauth@2.0.0
-useraccounts:separator@2.0.0
-useraccounts:status@2.0.0
 useraccounts:title@2.0.0
 webapp@1.2.0
 webapp-hashing@1.0.3

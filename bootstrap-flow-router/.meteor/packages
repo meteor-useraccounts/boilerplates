@@ -12,10 +12,7 @@ twbs:bootstrap
 useraccounts:bootstrap
 useraccounts:flow-routing
 zimme:active-route
-useraccounts:oauth
 accounts-github
-useraccounts:links
 useraccounts:title
-useraccounts:separator
-useraccounts:status
 jag:pince
+useraccounts:oauth

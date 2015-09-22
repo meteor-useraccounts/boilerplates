@@ -33,3 +33,5 @@ UserAccounts.configure({
   //termsUrl: 'terms-of-use',
 });
 */
+
+UserAccounts.init();
