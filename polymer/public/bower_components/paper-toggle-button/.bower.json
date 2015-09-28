@@ -1,19 +1,46 @@
 {
   "name": "paper-toggle-button",
+  "version": "1.0.8",
+  "description": "A material design toggle button control",
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "toggle",
+    "control"
+  ],
   "private": true,
-  "dependencies": {
-    "font-roboto": "Polymer/font-roboto#^0.5.0",
-    "paper-radio-button": "Polymer/paper-radio-button#^0.5.0"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PolymerElements/paper-toggle-button"
   },
-  "version": "0.5.2",
-  "homepage": "https://github.com/Polymer/paper-toggle-button",
-  "_release": "0.5.2",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/PolymerElements/paper-toggle-button",
+  "ignore": [],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0",
+    "paper-ripple": "PolymerElements/paper-ripple#^1.0.0",
+    "paper-styles": "PolymerElements/paper-styles#^1.0.0",
+    "paper-behaviors": "PolymerElements/paper-behaviors#^1.0.0",
+    "iron-checked-element-behavior": "PolymerElements/iron-checked-element-behavior#^1.0.0"
+  },
+  "devDependencies": {
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0",
+    "web-component-tester": "Polymer/web-component-tester#^3.3.0",
+    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.0.0",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.0.0"
+  },
+  "_release": "1.0.8",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.2",
-    "commit": "3fd4732c10180252a54d0199a4c15fafd220523a"
+    "tag": "v1.0.8",
+    "commit": "b1630a0597b9d55d09396c8636daf443890a46df"
   },
-  "_source": "git://github.com/Polymer/paper-toggle-button.git",
-  "_target": "^0.5.0",
-  "_originalSource": "Polymer/paper-toggle-button"
+  "_source": "git://github.com/PolymerElements/paper-toggle-button.git",
+  "_target": "^1.0.0",
+  "_originalSource": "PolymerElements/paper-toggle-button"
 }

@@ -1,6 +1,7 @@
 <template name='toolbar'>
-	<core-toolbar >
-		<paper-icon-button  icon="menu" core-drawer-toggle></paper-icon-button>
-		<span flex>Polymer</span>
-	</core-toolbar>
+	<paper-toolbar >
+		<paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+		<span class="flex">Polymer</span>
+		{{> atNavButton}}
+	</paper-toolbar>
 </template>

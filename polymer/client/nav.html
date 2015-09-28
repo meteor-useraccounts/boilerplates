@@ -1,13 +1,13 @@
 <template name="nav">
 
-  <core-header-panel drawer style="background-color: white;">
-    <core-toolbar>
-      <span>UserAccounts</span>
-    </core-toolbar>
-    <core-menu class='menu'>
+  <paper-header-panel drawer class="shadow-elevation-8dp">
+    <paper-toolbar>
+      UserAccounts
+    </paper-toolbar>
+    <paper-menu class="menu">
       <a href="{{pathFor 'home'}}"><paper-item class="{{isActiveRoute regex='home'}}">Home</paper-item></a>
       <a href="{{pathFor 'private'}}"><paper-item class="{{isActiveRoute regex='private'}}">Private</paper-item></a>
-    </core-menu>
-  </core-header-panel>
-  
+    </paper-menu>
+  </paper-header-panel>
+
 </template>
