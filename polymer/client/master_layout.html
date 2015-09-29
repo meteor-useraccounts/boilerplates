@@ -1,14 +1,11 @@
 <template name="masterLayout">
-
-  <core-drawer-panel id="drawerPanel">
-		{{> yield region="nav"}}
-		<core-header-panel main waterfall>
-			{{> yield region="toolbar"}}
-			<div class="content">
+  <paper-drawer-panel id="paperDrawerPanel">
+    {{> yield region="nav"}}
+    <paper-header-panel main>
+      {{> yield region="toolbar"}}
+      <div class="content">
 				{{> yield}}
 			</div>
-		</core-header-panel>
-	</core-drawer-panel>
-
-
+    </paper-header-panel>
+  </paper-drawer-panel>
 </template>
