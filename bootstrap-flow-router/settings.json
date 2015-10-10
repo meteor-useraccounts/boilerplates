@@ -1,0 +1,10 @@
+{
+	"UserAccounts": {
+		"logLevel": "trace"
+	},
+	"public": {
+		"UserAccounts": {
+			"logLevel": "trace"
+		}
+	}
+}
