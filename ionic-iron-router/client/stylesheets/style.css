@@ -1,0 +1,11 @@
+body {
+  background: #fcfcfc url(/imgs/bg.jpg) repeat;
+}
+
+#content {
+  padding-top: 70px;
+}
+
+.bar-header img {
+  margin-top: 5px;
+}

@@ -17,7 +17,7 @@ caching-html-compiler@1.0.2
 callback-hook@1.0.4
 check@1.0.6
 coffeescript@1.0.10
-cosmos:browserify@0.7.4
+cosmos:browserify@0.8.1
 ddp@1.2.2
 ddp-client@1.2.1
 ddp-common@1.2.1
@@ -81,9 +81,9 @@ twbs:bootstrap@3.3.5
 ui@1.0.8
 underscore@1.0.4
 url@1.0.5
-useraccounts:bootstrap@1.12.3
-useraccounts:core@1.12.3
-useraccounts:flow-routing@1.12.3
+useraccounts:bootstrap@1.12.4
+useraccounts:core@1.12.4
+useraccounts:flow-routing@1.12.4
 webapp@1.2.2
 webapp-hashing@1.0.5
 zimme:active-route@2.3.2

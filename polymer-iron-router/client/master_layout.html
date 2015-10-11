@@ -1,0 +1,12 @@
+<template name="masterLayout">
+  <paper-drawer-panel id="paperDrawerPanel">
+    {{> yield region="nav"}}
+    <paper-header-panel main>
+      {{> yield region="toolbar"}}
+      <div class="content">
+				{{> yield}}
+			</div>
+      {{> yield region="footer"}}
+    </paper-header-panel>
+  </paper-drawer-panel>
+</template>

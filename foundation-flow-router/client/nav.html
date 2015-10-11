@@ -1,0 +1,24 @@
+<template name="nav">
+  <div class="fixed">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><img alt="UserAccounts" width="25" height="25" src="/imgs/ua-logo.png"></h1>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+            {{> atNavButton}}
+        </ul>
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li class="{{isActiveRoute regex='home'}}"><a href="{{pathFor 'home'}}">Home</a></li>
+          <li class="{{isActiveRoute regex='private'}}"><a href="{{pathFor 'private'}}">Private</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+</template>

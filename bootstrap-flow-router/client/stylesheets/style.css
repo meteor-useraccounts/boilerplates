@@ -13,7 +13,9 @@ body {
   color: #555555;
   min-width: 320px;
 }
-
+#content {
+  padding-top: 70px;
+}
 #footer {
   position: absolute;
   bottom: 20px;

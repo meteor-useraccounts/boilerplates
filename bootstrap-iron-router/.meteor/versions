@@ -85,9 +85,9 @@ twbs:bootstrap@3.3.5
 ui@1.0.8
 underscore@1.0.4
 url@1.0.5
-useraccounts:bootstrap@1.12.3
-useraccounts:core@1.12.3
-useraccounts:iron-routing@1.12.3
+useraccounts:bootstrap@1.12.4
+useraccounts:core@1.12.4
+useraccounts:iron-routing@1.12.4
 webapp@1.2.2
 webapp-hashing@1.0.5
 zimme:active-route@2.3.2

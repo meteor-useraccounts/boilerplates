@@ -1,4 +1,3 @@
-
 // Options
 AccountsTemplates.configure({
   defaultLayout: 'masterLayout',
@@ -25,7 +24,7 @@ AccountsTemplates.configure({
   negativeValidation: true,
   positiveValidation: true,
   negativeFeedback: false,
-  positiveFeedback: false,
+  positiveFeedback: true,
 
   // Privacy Policy and Terms of Use
   //privacyUrl: 'privacy',

@@ -10,8 +10,6 @@ service-configuration
 twbs:bootstrap
 
 zimme:active-route
-useraccounts:flow-routing
-arillo:flow-router-helpers
 standard-minifiers
 meteor-base
 mobile-experience
@@ -26,3 +24,5 @@ random
 ejson
 spacebars
 check
+arillo:flow-router-helpers
+useraccounts:flow-routing

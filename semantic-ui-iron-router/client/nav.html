@@ -1,0 +1,10 @@
+<template name="nav">
+  <div class="ui fixed transparent inverted main menu">
+    <div class="header item"><img alt="UserAccounts" width="25" height="25" src="/imgs/ua-logo.png"></div>
+    <a class="{{isActiveRoute regex='home'}} item" href="{{pathFor 'home'}}">Home</a>
+    <a class="{{isActiveRoute regex='private'}} item" href="{{pathFor 'private'}}">Private</a>
+    <div class="right menu">
+      {{> atNavButton}}
+    </div>
+  </div>
+</template>
