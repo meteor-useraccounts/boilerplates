@@ -1,0 +1,7 @@
+body {
+  background: #fcfcfc url(/imgs/bg.jpg) repeat;
+}
+
+header.bar-nav img {
+  margin-top: 10px;
+}
