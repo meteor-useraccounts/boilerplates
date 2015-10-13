@@ -1,11 +1,7 @@
 <template name="masterLayout">
-  <header>
+  <div id="content">
     {{> yield region='nav'}}
-  </header>
-  <main id="container">
-    <div class="container">
-      {{> yield}}
-    </div>
-  </main>
+    {{> yield}}
+  </div>
   {{> yield region='footer'}}
 </template>
