@@ -1,0 +1,15 @@
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background: #fcfcfc url(/imgs/bg.jpg) repeat;
+  margin: 0px;
+  margin-bottom: 70px;
+  color: #555555;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 70px;
+}

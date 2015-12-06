@@ -1,0 +1,30 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base
+standard-minifiers
+mobile-experience
+mongo
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+check
+accounts-password
+service-configuration
+ecmascript
+react
+
+twbs:bootstrap
+kadira:flow-router
+kadira:react-layout
+gwendall:blaze-to-react
+
+useraccounts:core
+useraccounts:bootstrap
+useraccounts:flow-routing
