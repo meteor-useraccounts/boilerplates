@@ -26,7 +26,7 @@ Nav = React.createClass({
         <div className="container">
           <div className="container-fluid">
             <div className="navbar-header">
-              <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8">
+              <button type="button" className="navbar-toggle" data-toggle="collapse">
                 <span className="sr-only">Toggle navigation</span>
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
